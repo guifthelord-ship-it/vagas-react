@@ -43,6 +43,7 @@ footer{
 }
 
 .hero{
+    color: #111111;
     text-align: center;
     padding: 100px 24px;
 }
@@ -106,6 +107,7 @@ footer{
 .depoimentos{
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 .card{
@@ -196,4 +198,4 @@ footer{
     top: 0;
    }
 
-} 
+}
