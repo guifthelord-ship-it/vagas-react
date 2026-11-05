@@ -1,4 +1,6 @@
+import { Link } from "react-router"
 function VagaCard({
+        id,
         empresa ,
         cargo,
         salario,
@@ -19,10 +21,10 @@ function VagaCard({
                     </div>
                     <div className="card__actions">
                         <span>{area}</span>
-                        <a href="">{publicada}</a>
+                        <Link to={`/vaga/${id}`}>Candidatar-se</Link>
                     </div>
                 </div>
     )
 }
 
-export default VagaCard
+export default VagaCard;

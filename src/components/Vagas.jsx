@@ -13,6 +13,7 @@ function Vagas() {
                 {
                     vagaList.map((vaga)=>(
                         <VagaCard
+                            id={vaga.id}
                             key={vaga.id}
                             empresa={vaga.empresa} 
                             cargo={vaga.cargo}
@@ -40,39 +41,39 @@ function Vagas() {
                 <div className="conteudo__filter">
                     <p>Tipo de vaga</p>
 
-                    <label for="ck-efetivo">
+                    <label htmlFor="ck-efetivo">
                         <input className="filtro" type="checkbox" name="ck-efetivo" id="ck-efetivo"/> Efetivo
                     </label>
-                    <label for="ck-estagio">
+                    <label htmlFor="ck-estagio">
                         <input className="filtro" type="checkbox" name="ck-estagio" id="ck-estagio"/> Estágio
                     </label>
-                    <label for="ck-meio">
+                    <label htmlFor="ck-meio">
                         <input className="filtro" type="checkbox" name="ck-meio" id="ck-meio"/> Meio período
                     </label>
                 </div>
                 <div className="conteudo__filter">
                     <p>Área</p>
 
-                    <label for="ck-engenharia">
+                    <label htmlFor="ck-engenharia">
                         <input className="filtro" type="checkbox" name="ck-engenharia" id="ck-engenharia"/> Engenharia
                     </label>
-                    <label for="ck-design">
+                    <label htmlFor="ck-design">
                         <input className="filtro" type="checkbox" name="ck-design" id="ck-design"/> Design
                     </label>
-                    <label for="ck-gestao">
+                    <label htmlFor="ck-gestao">
                         <input className="filtro" type="checkbox" name="ck-gestao" id="ck-gestao"/> Gestão
                     </label>
                 </div>
                 <div className="conteudo__filter">
                     <p>Localização</p>
 
-                    <label for="ck-sp">
+                    <label htmlFor="ck-sp">
                         <input className="filtro" type="checkbox" name="ck-sp" id="ck-sp"/> São Paulo
                     </label>
-                    <label for="ck-sc">
+                    <label htmlFor="ck-sc">
                         <input className="filtro" type="checkbox" name="ck-sc" id="ck-sc"/> Santa Catarina
                     </label>
-                    <label for="ck-rs">
+                    <label htmlFor="ck-rs">
                         <input className="filtro" type="checkbox" name="ck-rs" id="ck-rs"/> Rio Grande do Sul
                     </label>
                 </div>
