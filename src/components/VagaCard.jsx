@@ -11,7 +11,7 @@ function VagaCard({
     return(
                 <div className="card">
                     <div className="card__avatar">
-                        V
+                        {empresa.charAt(0).toUpperCase()}
                     </div>
                     <div className="card__text">
                         <p>{empresa}</p>
