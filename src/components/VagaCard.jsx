@@ -7,6 +7,7 @@ function VagaCard({
         modelo,
         area,
         publicada,
+        localizacao,
 }) {
     return(
                 <div className="card">
@@ -18,6 +19,7 @@ function VagaCard({
                         <h3 className="card__title">{cargo}</h3>
                         <span className="card__badge">{salario}</span>
                         <span className="card__badge">{modelo}</span>
+                        <span className="card__badge">{localizacao}</span>
                     </div>
                     <div className="card__actions">
                         <span>{area}</span>

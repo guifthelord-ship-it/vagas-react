@@ -21,6 +21,7 @@ function Vagas() {
                             modelo={vaga.modelo}
                             area={vaga.area}
                             publicada={vaga.publicada}
+                            localizacao={vaga.localizacao}
                         />
                     ))
                 }

@@ -7,6 +7,7 @@ const vagaList=[
         modelo: "Estagio",
         area: "Engenharia",
         publicada: "4h",
+        localizacao:"São Paulo",
     },
     {
         id: 2,
@@ -16,6 +17,7 @@ const vagaList=[
         modelo: "PJ",
         area: "Engenharia",
         publicada: "20h",
+        localizacao:"Santa Catarina",
     },
     {
          id: 3,
@@ -25,6 +27,7 @@ const vagaList=[
         modelo: "CLT/PJ",
         area: "Engenharia",
         publicada: "8h",
+        localizacao:"Rio Grande do Sul",
     }
 ]
 
